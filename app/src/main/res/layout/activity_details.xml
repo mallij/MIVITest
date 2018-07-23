@@ -1,0 +1,312 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tvAccountsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Account Details"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/tblAccountDetails"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_edittext"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvAccountsTitle"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Account Details"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvAccountNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Account Details"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Customer Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email Id"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="EmailId"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Phone"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tvSubscriptionTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Subscription Details"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@id/tblAccountDetails"
+            android:layout_marginTop="10dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/tblSubscriptionDetails"
+            android:layout_width="wrap_content"
+            android:background="@drawable/background_edittext"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/tvSubscriptionTitle"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data Balance"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvDataBalance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Data Balance"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ExpiryDate"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvExpiryDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Expiry Date"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Auto Renewal"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvAutoRenewal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="EmailId"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/tvPlanTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Plan Details"
+            android:layout_below="@id/tblSubscriptionDetails"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/tblPlanDetails"
+            android:layout_width="wrap_content"
+            android:background="@drawable/background_edittext"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@id/tvPlanTitle"
+            android:layout_centerHorizontal="true">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Plan Name"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvPlanName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="PlanName"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited Calling"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvUnlimitedCalling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Unlimited Calling"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unlimited Messages"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvUnlimitedMessages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Unlimited Messages"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorLemmonYellow"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="Price"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorLemmonYellowDark"
+                    android:textSize="18sp" />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
